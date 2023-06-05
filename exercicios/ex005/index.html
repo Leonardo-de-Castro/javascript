@@ -12,13 +12,19 @@
    <p>Aqui vai o resultado</p>
    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript!</p>
    <div id="msg">Clique em mim</div>
+   <div class="name">Exemplo</div>
 
    <script>
     var corpo = window.document.body
-    var p1 = window.document.getElementsByTagName('p')[1]
+    var p1 = window.document.getElementsByTagName('p')[0]
     var d = window.document.getElementById('msg')
-    d.style.background = 'green'
+    d.style.background = 'pink'
     d.innerText = 'Estou aguardando...'
+
+    var di = window.document.querySelector('div.name')
+    di.style.color = 'black'
+    di.style.background = 'gray'
+    di.innerText = 'Estou estudando'
    </script>
 </body>
 </html>
