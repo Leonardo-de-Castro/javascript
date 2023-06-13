@@ -1,3 +1,4 @@
+/* Exemplo de Repetição com variável de controle, utilizando o COMANDO --> "for{}" 
 console.log('Vai começar...')
 for(var c = 1 ;c <= 20 ;c++) {
     console.log(c)
